@@ -39,3 +39,10 @@ persist.fuse_sdcard=true
 
 # Support HW reset
 ro.product.hwreset = 1
+
+# hardware info
+ro.device.cpu=1.51 GHz Qualcomm Snapdragon S4 Pro MSM8960
+ro.device.gpu=Qualcomm Adreno 320
+ro.device.rear_cam=8 MP
+ro.device.front_cam=2.1 MP
+ro.device.screen_res=1080x1920
