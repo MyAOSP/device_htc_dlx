@@ -18,7 +18,7 @@
 $(call inherit-product-if-exists, vendor/htc/dlx/dlx-vendor.mk)
 
 # Get Verizon proprietary apks and props
-$(call inherit-product-if-exists, vendor/verizon/device-verizon.mk)
+$(call inherit-product-if-exists, vendor/verizon/dlx-verizon.mk)
 
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/dlx/overlay
