@@ -1,15 +1,15 @@
+# Inherit some common baked stuff.
+$(call inherit-product, vendor/baked/config/common_full_phone.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/baked/config/nfc_enhanced.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Release name
 PRODUCT_RELEASE_NAME := dlx
-
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/dlx/full_dlx.mk)
