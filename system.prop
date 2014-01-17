@@ -3,7 +3,6 @@
 #
 mobiledata.interfaces=rmnet0,rmnet1
 telephony.lteOnCdmaDevice=1
-telephony.rilV7NeedCDMALTEPhone = true
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
@@ -72,3 +71,4 @@ ro.opengles.version=196608
 persist.eons.enabled=false
 ro.vendor.extension_library=/system/vendor/lib/libqc-opt.so
 persist.sys.usb.config=mtp
+mm.enable.smoothstreaming=true

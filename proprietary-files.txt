@@ -64,10 +64,11 @@ bin/qcks
 bin/netmgrd
 bin/thermald
 bin/mpdecision
+lib/libCB.so
 lib/libmmcamera_interface2.so
 lib/libchromatix_vd6869_hdr.so
 lib/libril-qcril-hook-oem.so
-lib/hw/vendor-camera.msm8960.so
+lib/hw/camera.vendor.msm8960.so
 lib/libdiag.so
 lib/libmmcamera_hdr_lib.so
 lib/libQSEEComAPI.so
