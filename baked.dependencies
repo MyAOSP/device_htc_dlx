@@ -1,10 +1,12 @@
 [
   {
-    "repository": "kernel_htc_m7",
-    "target_path": "kernel/htc/m7"
+    "repository": "TeamBAKED/kernel_htc_m7",
+    "target_path": "kernel/htc/m7",
+    "branch": "kk-4.4"
   },
   {
-    "repository": "device_htc_msm8960-common",
-    "target_path": "device/htc/msm8960-common"
+    "repository": "TeamBAKED/device_htc_msm8960-common",
+    "target_path": "device/htc/msm8960-common",
+    "branch": "kk-4.4"
   }
 ]
