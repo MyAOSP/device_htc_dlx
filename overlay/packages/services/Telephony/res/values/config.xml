@@ -38,4 +38,6 @@
     <bool name="config_enabled_lte" translatable="false">true</bool>
     <!-- Show cdma auto network mode in (glabal) roaming -->
     <bool name="config_show_cdma" translatable="false">true</bool>
+    <!-- Display carrier settings menu if true -->
+    <bool name="config_carrier_settings_enable">false</bool>
 </resources>
